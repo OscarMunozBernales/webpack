@@ -1,0 +1,26 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "Curso webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarMunozBernales/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Oscar Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OscarMunozBernales/webpack/issues"
+  },
+  "homepage": "https://github.com/OscarMunozBernales/webpack#readme",
+  "devDependencies": {
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
+  }
+}
