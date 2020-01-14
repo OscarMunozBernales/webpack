@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Loader(props){
+function Loader({name}){
     return(
-        <li> {props.name} </li>
+        <li> {name} </li>
     )
 }
 
