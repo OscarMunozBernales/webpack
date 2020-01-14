@@ -12,7 +12,7 @@ function App() {
         <div>
             <ul>
                 {
-                    loaderList.map( item => <Loader data={item} key={item.id}/>)
+                    loaderList.map( item => <Loader {...item} key={item.id}/>)
                 }
             </ul>
             <button onClick={handleClick}> Mostrar lo aprendido hasta el momento</button>
